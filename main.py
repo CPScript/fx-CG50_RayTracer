@@ -1,6 +1,6 @@
 import time
-from graphics import draw_pixel
-from ray_tracer import ray_trace
+from src.graphics import draw_pixel
+from src.ray_tracer import ray_trace
 
 while True:
     ray_trace(draw_pixel)
